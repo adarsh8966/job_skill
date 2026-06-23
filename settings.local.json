@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"C:\\\\Users\\\\adars\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\3ce3a78e-4e83-47ed-b4c3-439d1cd150a8\\\\1eb9dcd9-2591-49e9-bf5a-be9036df8b54\\\\skills\\\\skill-creator\")",
+      "Bash(ls \"C:\\\\Users\\\\adars\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\3ce3a78e-4e83-47ed-b4c3-439d1cd150a8\\\\1eb9dcd9-2591-49e9-bf5a-be9036df8b54\\\\skills\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\adars\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\3ce3a78e-4e83-47ed-b4c3-439d1cd150a8\\\\1eb9dcd9-2591-49e9-bf5a-be9036df8b54\\\\skills\\\\job-apply\\\\references\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\adars\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\3ce3a78e-4e83-47ed-b4c3-439d1cd150a8\\\\1eb9dcd9-2591-49e9-bf5a-be9036df8b54\\\\skills\\\\job-apply\\\\scripts\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\adars\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\3ce3a78e-4e83-47ed-b4c3-439d1cd150a8\\\\1eb9dcd9-2591-49e9-bf5a-be9036df8b54\\\\job-apply-workspace\\\\evals\")",
+      "mcp__visualize__show_widget",
+      "Bash(rm -f C:/Users/adars/Desktop/job-apply.skill)",
+      "Bash(zip -r C:/Users/adars/Desktop/job-apply.skill job-apply/ --exclude job-apply/evals/* --exclude *__pycache__* --exclude *.pyc --exclude *.DS_Store)",
+      "Read(//c/Users/adars/Desktop/**)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\adars\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\3ce3a78e-4e83-47ed-b4c3-439d1cd150a8\\\\1eb9dcd9-2591-49e9-bf5a-be9036df8b54\\\\skills\\\\job-apply\" -Recurse -File | ForEach-Object { $_.FullName })",
+      "WebSearch"
+    ]
+  }
+}
